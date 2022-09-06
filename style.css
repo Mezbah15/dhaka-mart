@@ -7,12 +7,12 @@
 .price{
     color: #ff136f;
 }
-.row{
+.carousel-inner .row{
     background-color: #fceae8;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 .carousel-item{
-    padding: 20px 40px;
+    padding: 0px 50px;
 }
 .buy-now-button{
     background-image: linear-gradient(to bottom, #ff5898 0%, #ff136f 100%);
@@ -21,4 +21,33 @@
     border-radius: 8px;
     padding: 9px 25px;
     cursor: pointer;
+}
+.categories{
+    padding: 0px 50px;
+}
+.categories img{
+    width: 100px;
+}
+.cat1, .cat2, .cat3{
+    color: #fceae8;
+    border-radius: 10px;
+}
+.cat1{
+    background-image: linear-gradient(45deg, rgb(71, 255, 157) 0%, tomato 100%)
+}
+.cat2{
+    background-image: linear-gradient(45deg, rgb(0, 166, 255), rgb(0, 255, 213));
+}
+.cat3{
+    background-image: linear-gradient(45deg, rgba(119, 131, 226, 0.854), rgb(136, 182, 79));
+}
+.card{
+    width: 30%;
+    float: left;
+    margin-left: 26px;
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.shoes h3{
+    padding-left: 25px;
 }
